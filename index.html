@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeverDreamz - Unique Clothing for Dreamers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>FeverDreamz</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to FeverDreamz</h2>
+            <p>Where Fashion Meets Imagination</p>
+            <a href="#shop" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="shop" class="shop">
+        <h2>Our Collection</h2>
+        <div class="products">
+            <div class="product">
+                <img src="images/shirt1.jpg" alt="Dreamer Tee">
+                <h3>Dreamer Tee</h3>
+                <p>$29.99</p>
+                <button onclick="addToCart('Dreamer Tee')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/hoodie1.jpg" alt="Cosmic Hoodie">
+                <h3>Cosmic Hoodie</h3>
+                <p>$59.99</p>
+                <button onclick="addToCart('Cosmic Hoodie')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/pants1.jpg" alt="Starry Pants">
+                <h3>Starry Pants</h3>
+                <p>$49.99</p>
+                <button onclick="addToCart('Starry Pants')">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About FeverDreamz</h2>
+        <p>FeverDreamz is a brand that blends the boundaries between reality and imagination. Our clothing is designed for those who dare to dream and express themselves through unique, bold fashion.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 FeverDreamz. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
